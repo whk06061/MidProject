@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4439C32C2458784700A7406D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4439C32B2458784700A7406D /* AppDelegate.swift */; };
+		4439C32E2458784700A7406D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4439C32D2458784700A7406D /* SceneDelegate.swift */; };
+		4439C3302458784700A7406D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4439C32F2458784700A7406D /* ViewController.swift */; };
+		4439C3332458784700A7406D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4439C3312458784700A7406D /* Main.storyboard */; };
+		4439C3352458784B00A7406D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4439C3342458784B00A7406D /* Assets.xcassets */; };
+		4439C3382458784B00A7406D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4439C3362458784B00A7406D /* LaunchScreen.storyboard */; };
+		4439C34024589B1000A7406D /* main.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439C33F24589B1000A7406D /* main.png */; };
+		4439C3422458AA9000A7406D /* main2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439C3412458AA9000A7406D /* main2.png */; };
+		4439C3462458BD7900A7406D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4439C3452458BD7900A7406D /* MainViewController.swift */; };
+		4439DACB245DB72A0068C015 /* Temp28ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4439DACA245DB72A0068C015 /* Temp28ViewController.swift */; };
+		4439DAE5245DB9610068C015 /* gloves.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439DACC245DB95E0068C015 /* gloves.png */; };
+		4439DAE6245DB9610068C015 /* cardigan.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439DACD245DB95E0068C015 /* cardigan.png */; };
+		4439DAE7245DB9610068C015 /* flimsyknit.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439DACE245DB95E0068C015 /* flimsyknit.png */; };
+		4439DAE8245DB9610068C015 /* longshirts.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439DACF245DB95E0068C015 /* longshirts.png */; };
+		4439DAE9245DB9610068C015 /* leatherjacket.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439DAD0245DB95F0068C015 /* leatherjacket.png */; };
+		4439DAEA245DB9610068C015 /* shortpants.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439DAD1245DB95F0068C015 /* shortpants.png */; };
+		4439DAEC245DB9610068C015 /* yasang.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439DAD3245DB95F0068C015 /* yasang.png */; };
+		4439DAED245DB9610068C015 /* mantoman.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439DAD4245DB95F0068C015 /* mantoman.png */; };
+		4439DAEE245DB9610068C015 /* jacket.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439DAD5245DB95F0068C015 /* jacket.png */; };
+		4439DAEF245DB9610068C015 /* sleeveless.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439DAD6245DB95F0068C015 /* sleeveless.png */; };
+		4439DAF0245DB9610068C015 /* cottonpants.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439DAD7245DB95F0068C015 /* cottonpants.png */; };
+		4439DAF1245DB9610068C015 /* tshirts.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439DAD8245DB95F0068C015 /* tshirts.png */; };
+		4439DAF2245DB9610068C015 /* heavycoat.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439DAD9245DB95F0068C015 /* heavycoat.png */; };
+		4439DAF3245DB9610068C015 /* scarf.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439DADA245DB95F0068C015 /* scarf.png */; };
+		4439DAF4245DB9610068C015 /* shortshirts.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439DADB245DB9600068C015 /* shortshirts.png */; };
+		4439DAF5245DB9610068C015 /* jeans.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439DADC245DB9600068C015 /* jeans.png */; };
+		4439DAF6245DB9610068C015 /* hat.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439DADD245DB9600068C015 /* hat.png */; };
+		4439DAF7245DB9610068C015 /* trenchcoat.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439DADE245DB9600068C015 /* trenchcoat.png */; };
+		4439DAF8245DB9610068C015 /* coat.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439DADF245DB9600068C015 /* coat.png */; };
+		4439DAF9245DB9610068C015 /* dress.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439DAE0245DB9600068C015 /* dress.png */; };
+		4439DAFA245DB9610068C015 /* underwear.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439DAE1245DB9600068C015 /* underwear.png */; };
+		4439DAFB245DB9610068C015 /* stocking.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439DAE2245DB9600068C015 /* stocking.png */; };
+		4439DAFC245DB9610068C015 /* knit.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439DAE3245DB9600068C015 /* knit.png */; };
+		4439DAFD245DB9610068C015 /* padding.png in Resources */ = {isa = PBXBuildFile; fileRef = 4439DAE4245DB9610068C015 /* padding.png */; };
+		4485408E245DD5F200493B30 /* Temp23ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485408D245DD5F200493B30 /* Temp23ViewController.swift */; };
+		44854090245DF19000493B30 /* Temp20ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485408F245DF19000493B30 /* Temp20ViewController.swift */; };
+		44854092245DF5DB00493B30 /* Temp17ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44854091245DF5DB00493B30 /* Temp17ViewController.swift */; };
+		44854094245DF91A00493B30 /* Temp12ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44854093245DF91A00493B30 /* Temp12ViewController.swift */; };
+		44854096245DFD3C00493B30 /* Temp9ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44854095245DFD3C00493B30 /* Temp9ViewController.swift */; };
+		44854098245DFEE300493B30 /* Temp5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44854097245DFEE300493B30 /* Temp5ViewController.swift */; };
+		4485409C245E014500493B30 /* leggings.png in Resources */ = {isa = PBXBuildFile; fileRef = 4485409B245E014500493B30 /* leggings.png */; };
+		4485409E245E027200493B30 /* TempElseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485409D245E027200493B30 /* TempElseViewController.swift */; };
+		448540A0245E045500493B30 /* hoodie.png in Resources */ = {isa = PBXBuildFile; fileRef = 4485409F245E045500493B30 /* hoodie.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4439C3282458784700A7406D /* Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4439C32B2458784700A7406D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4439C32D2458784700A7406D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4439C32F2458784700A7406D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4439C3322458784700A7406D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4439C3342458784B00A7406D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4439C3372458784B00A7406D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4439C3392458784B00A7406D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4439C33F24589B1000A7406D /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main.png; sourceTree = SOURCE_ROOT; };
+		4439C3412458AA9000A7406D /* main2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main2.png; sourceTree = SOURCE_ROOT; };
+		4439C3452458BD7900A7406D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4439DACA245DB72A0068C015 /* Temp28ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temp28ViewController.swift; sourceTree = "<group>"; };
+		4439DACC245DB95E0068C015 /* gloves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gloves.png; sourceTree = SOURCE_ROOT; };
+		4439DACD245DB95E0068C015 /* cardigan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardigan.png; sourceTree = SOURCE_ROOT; };
+		4439DACE245DB95E0068C015 /* flimsyknit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flimsyknit.png; sourceTree = SOURCE_ROOT; };
+		4439DACF245DB95E0068C015 /* longshirts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = longshirts.png; sourceTree = SOURCE_ROOT; };
+		4439DAD0245DB95F0068C015 /* leatherjacket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leatherjacket.png; sourceTree = SOURCE_ROOT; };
+		4439DAD1245DB95F0068C015 /* shortpants.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shortpants.png; sourceTree = SOURCE_ROOT; };
+		4439DAD3245DB95F0068C015 /* yasang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yasang.png; sourceTree = SOURCE_ROOT; };
+		4439DAD4245DB95F0068C015 /* mantoman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mantoman.png; sourceTree = SOURCE_ROOT; };
+		4439DAD5245DB95F0068C015 /* jacket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jacket.png; sourceTree = SOURCE_ROOT; };
+		4439DAD6245DB95F0068C015 /* sleeveless.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sleeveless.png; sourceTree = SOURCE_ROOT; };
+		4439DAD7245DB95F0068C015 /* cottonpants.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cottonpants.png; sourceTree = SOURCE_ROOT; };
+		4439DAD8245DB95F0068C015 /* tshirts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tshirts.png; sourceTree = SOURCE_ROOT; };
+		4439DAD9245DB95F0068C015 /* heavycoat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heavycoat.png; sourceTree = SOURCE_ROOT; };
+		4439DADA245DB95F0068C015 /* scarf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scarf.png; sourceTree = SOURCE_ROOT; };
+		4439DADB245DB9600068C015 /* shortshirts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shortshirts.png; sourceTree = SOURCE_ROOT; };
+		4439DADC245DB9600068C015 /* jeans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jeans.png; sourceTree = SOURCE_ROOT; };
+		4439DADD245DB9600068C015 /* hat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hat.png; sourceTree = SOURCE_ROOT; };
+		4439DADE245DB9600068C015 /* trenchcoat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trenchcoat.png; sourceTree = SOURCE_ROOT; };
+		4439DADF245DB9600068C015 /* coat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coat.png; sourceTree = SOURCE_ROOT; };
+		4439DAE0245DB9600068C015 /* dress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dress.png; sourceTree = SOURCE_ROOT; };
+		4439DAE1245DB9600068C015 /* underwear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = underwear.png; sourceTree = SOURCE_ROOT; };
+		4439DAE2245DB9600068C015 /* stocking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stocking.png; sourceTree = SOURCE_ROOT; };
+		4439DAE3245DB9600068C015 /* knit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knit.png; sourceTree = SOURCE_ROOT; };
+		4439DAE4245DB9610068C015 /* padding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = padding.png; sourceTree = SOURCE_ROOT; };
+		4485408D245DD5F200493B30 /* Temp23ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temp23ViewController.swift; sourceTree = "<group>"; };
+		4485408F245DF19000493B30 /* Temp20ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temp20ViewController.swift; sourceTree = "<group>"; };
+		44854091245DF5DB00493B30 /* Temp17ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temp17ViewController.swift; sourceTree = "<group>"; };
+		44854093245DF91A00493B30 /* Temp12ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temp12ViewController.swift; sourceTree = "<group>"; };
+		44854095245DFD3C00493B30 /* Temp9ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temp9ViewController.swift; sourceTree = "<group>"; };
+		44854097245DFEE300493B30 /* Temp5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temp5ViewController.swift; sourceTree = "<group>"; };
+		4485409B245E014500493B30 /* leggings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leggings.png; sourceTree = SOURCE_ROOT; };
+		4485409D245E027200493B30 /* TempElseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempElseViewController.swift; sourceTree = "<group>"; };
+		4485409F245E045500493B30 /* hoodie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hoodie.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4439C3252458784700A7406D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4439C31F2458784700A7406D = {
+			isa = PBXGroup;
+			children = (
+				4439C32A2458784700A7406D /* Project1 */,
+				4439C3292458784700A7406D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4439C3292458784700A7406D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4439C3282458784700A7406D /* Project1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4439C32A2458784700A7406D /* Project1 */ = {
+			isa = PBXGroup;
+			children = (
+				4485409F245E045500493B30 /* hoodie.png */,
+				4485409B245E014500493B30 /* leggings.png */,
+				4439DACD245DB95E0068C015 /* cardigan.png */,
+				4439DADF245DB9600068C015 /* coat.png */,
+				4439DAD7245DB95F0068C015 /* cottonpants.png */,
+				4439DAE0245DB9600068C015 /* dress.png */,
+				4439DACE245DB95E0068C015 /* flimsyknit.png */,
+				4439DACC245DB95E0068C015 /* gloves.png */,
+				4439DADD245DB9600068C015 /* hat.png */,
+				4439DAD9245DB95F0068C015 /* heavycoat.png */,
+				4439DAD5245DB95F0068C015 /* jacket.png */,
+				4439DADC245DB9600068C015 /* jeans.png */,
+				4439DAE3245DB9600068C015 /* knit.png */,
+				4439DAD0245DB95F0068C015 /* leatherjacket.png */,
+				4439DACF245DB95E0068C015 /* longshirts.png */,
+				4439DAD4245DB95F0068C015 /* mantoman.png */,
+				4439DAE4245DB9610068C015 /* padding.png */,
+				4439DADA245DB95F0068C015 /* scarf.png */,
+				4439DAD1245DB95F0068C015 /* shortpants.png */,
+				4439DADB245DB9600068C015 /* shortshirts.png */,
+				4439DAD6245DB95F0068C015 /* sleeveless.png */,
+				4439DAE2245DB9600068C015 /* stocking.png */,
+				4439DADE245DB9600068C015 /* trenchcoat.png */,
+				4439DAD8245DB95F0068C015 /* tshirts.png */,
+				4439DAE1245DB9600068C015 /* underwear.png */,
+				4439DAD3245DB95F0068C015 /* yasang.png */,
+				4439C3412458AA9000A7406D /* main2.png */,
+				4439C33F24589B1000A7406D /* main.png */,
+				4439C32B2458784700A7406D /* AppDelegate.swift */,
+				4439C32D2458784700A7406D /* SceneDelegate.swift */,
+				4439C32F2458784700A7406D /* ViewController.swift */,
+				4439C3312458784700A7406D /* Main.storyboard */,
+				4439C3342458784B00A7406D /* Assets.xcassets */,
+				4439C3362458784B00A7406D /* LaunchScreen.storyboard */,
+				4439C3392458784B00A7406D /* Info.plist */,
+				4439C3452458BD7900A7406D /* MainViewController.swift */,
+				4439DACA245DB72A0068C015 /* Temp28ViewController.swift */,
+				4485408D245DD5F200493B30 /* Temp23ViewController.swift */,
+				4485408F245DF19000493B30 /* Temp20ViewController.swift */,
+				44854091245DF5DB00493B30 /* Temp17ViewController.swift */,
+				44854093245DF91A00493B30 /* Temp12ViewController.swift */,
+				44854095245DFD3C00493B30 /* Temp9ViewController.swift */,
+				44854097245DFEE300493B30 /* Temp5ViewController.swift */,
+				4485409D245E027200493B30 /* TempElseViewController.swift */,
+			);
+			path = Project1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4439C3272458784700A7406D /* Project1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4439C33C2458784B00A7406D /* Build configuration list for PBXNativeTarget "Project1" */;
+			buildPhases = (
+				4439C3242458784700A7406D /* Sources */,
+				4439C3252458784700A7406D /* Frameworks */,
+				4439C3262458784700A7406D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Project1;
+			productName = Project1;
+			productReference = 4439C3282458784700A7406D /* Project1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4439C3202458784700A7406D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Mac SWU";
+				TargetAttributes = {
+					4439C3272458784700A7406D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4439C3232458784700A7406D /* Build configuration list for PBXProject "Project1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4439C31F2458784700A7406D;
+			productRefGroup = 4439C3292458784700A7406D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4439C3272458784700A7406D /* Project1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4439C3262458784700A7406D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4439DAF6245DB9610068C015 /* hat.png in Resources */,
+				4439DAF8245DB9610068C015 /* coat.png in Resources */,
+				4439C34024589B1000A7406D /* main.png in Resources */,
+				4439DAF5245DB9610068C015 /* jeans.png in Resources */,
+				4439DAED245DB9610068C015 /* mantoman.png in Resources */,
+				4485409C245E014500493B30 /* leggings.png in Resources */,
+				4439DAF2245DB9610068C015 /* heavycoat.png in Resources */,
+				4439DAF9245DB9610068C015 /* dress.png in Resources */,
+				4439DAE6245DB9610068C015 /* cardigan.png in Resources */,
+				4439DAF4245DB9610068C015 /* shortshirts.png in Resources */,
+				4439DAF0245DB9610068C015 /* cottonpants.png in Resources */,
+				4439C3382458784B00A7406D /* LaunchScreen.storyboard in Resources */,
+				4439DAE7245DB9610068C015 /* flimsyknit.png in Resources */,
+				448540A0245E045500493B30 /* hoodie.png in Resources */,
+				4439DAE8245DB9610068C015 /* longshirts.png in Resources */,
+				4439DAFB245DB9610068C015 /* stocking.png in Resources */,
+				4439DAEA245DB9610068C015 /* shortpants.png in Resources */,
+				4439DAEE245DB9610068C015 /* jacket.png in Resources */,
+				4439C3352458784B00A7406D /* Assets.xcassets in Resources */,
+				4439DAEC245DB9610068C015 /* yasang.png in Resources */,
+				4439DAF7245DB9610068C015 /* trenchcoat.png in Resources */,
+				4439DAFC245DB9610068C015 /* knit.png in Resources */,
+				4439C3332458784700A7406D /* Main.storyboard in Resources */,
+				4439C3422458AA9000A7406D /* main2.png in Resources */,
+				4439DAF3245DB9610068C015 /* scarf.png in Resources */,
+				4439DAFA245DB9610068C015 /* underwear.png in Resources */,
+				4439DAE9245DB9610068C015 /* leatherjacket.png in Resources */,
+				4439DAF1245DB9610068C015 /* tshirts.png in Resources */,
+				4439DAFD245DB9610068C015 /* padding.png in Resources */,
+				4439DAE5245DB9610068C015 /* gloves.png in Resources */,
+				4439DAEF245DB9610068C015 /* sleeveless.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4439C3242458784700A7406D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44854096245DFD3C00493B30 /* Temp9ViewController.swift in Sources */,
+				44854098245DFEE300493B30 /* Temp5ViewController.swift in Sources */,
+				44854094245DF91A00493B30 /* Temp12ViewController.swift in Sources */,
+				44854090245DF19000493B30 /* Temp20ViewController.swift in Sources */,
+				4439C3302458784700A7406D /* ViewController.swift in Sources */,
+				44854092245DF5DB00493B30 /* Temp17ViewController.swift in Sources */,
+				4485408E245DD5F200493B30 /* Temp23ViewController.swift in Sources */,
+				4439C32C2458784700A7406D /* AppDelegate.swift in Sources */,
+				4439DACB245DB72A0068C015 /* Temp28ViewController.swift in Sources */,
+				4485409E245E027200493B30 /* TempElseViewController.swift in Sources */,
+				4439C32E2458784700A7406D /* SceneDelegate.swift in Sources */,
+				4439C3462458BD7900A7406D /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4439C3312458784700A7406D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4439C3322458784700A7406D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4439C3362458784B00A7406D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4439C3372458784B00A7406D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4439C33A2458784B00A7406D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4439C33B2458784B00A7406D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4439C33D2458784B00A7406D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Project1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.swu.Project1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4439C33E2458784B00A7406D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Project1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.swu.Project1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4439C3232458784700A7406D /* Build configuration list for PBXProject "Project1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4439C33A2458784B00A7406D /* Debug */,
+				4439C33B2458784B00A7406D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4439C33C2458784B00A7406D /* Build configuration list for PBXNativeTarget "Project1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4439C33D2458784B00A7406D /* Debug */,
+				4439C33E2458784B00A7406D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4439C3202458784700A7406D /* Project object */;
+}
